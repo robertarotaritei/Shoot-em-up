@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     public int health;
     private void Awake()
     {
-        rb=GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
     void Start()
     {
@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     {
         rb.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0));
         rb.AddForce(new Vector2(0, Input.GetAxis("Vertical") * speed));
+        faceMouse();
     }
 
     public void Damage()
@@ -30,5 +31,17 @@ public class Player : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void faceMouse()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        Vector2 direction = new Vector2(
+        mousePosition.x - transform.position.x,
+        mousePosition.y - transform.position.y
+        );
+
+        transform.up = direction;
     }
 }

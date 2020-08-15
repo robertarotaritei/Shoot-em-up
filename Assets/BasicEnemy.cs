@@ -30,6 +30,8 @@ public class BasicEnemy : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
         rb.velocity = new Vector2();
+
+        facePlayer();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -53,5 +55,15 @@ public class BasicEnemy : MonoBehaviour
         {
             Die();
         }
+    }
+
+    private void facePlayer()
+    {
+        Vector2 direction = new Vector2(
+        target.position.x - transform.position.x,
+        target.position.y - transform.position.y
+        );
+
+        transform.up = direction;
     }
 }
