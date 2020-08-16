@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     public float speed;
     public int health;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,11 +24,11 @@ public class Player : MonoBehaviour
         faceMouse();
     }
 
-    public void Damage()
+    public void Damage(int damage)
     {
-        health--;
+        health -=damage;
 
-        if (health == 0)
+        if (health <= 0)
         {
             Destroy(gameObject);
         }

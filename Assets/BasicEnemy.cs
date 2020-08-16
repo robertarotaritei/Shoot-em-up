@@ -11,18 +11,24 @@ public class BasicEnemy : MonoBehaviour
     public float fireRate;
     public int health;
     public float distanceFromTarget;
-    Transform target;
+    public GameObject bullet;
+    public float bulletForce;
+    Transform target, barrel;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        barrel = transform.Find("barrel");
     }
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        if (canShoot)
+        {
+            InvokeRepeating("EnemyShoot", 1f, fireRate);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(Vector2.Distance(transform.position, target.position) > distanceFromTarget)
@@ -38,7 +44,7 @@ public class BasicEnemy : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<Player>().Damage();
+            collision.gameObject.GetComponent<Player>().Damage(1);
             Die();
         }
     }
@@ -47,11 +53,11 @@ public class BasicEnemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
-    void Damage()
+    public void Damage(int damage)
     {
-        health--;
+        health -= damage;
 
-        if(health == 0)
+        if(health <= 0)
         {
             Die();
         }
@@ -65,5 +71,13 @@ public class BasicEnemy : MonoBehaviour
         );
 
         transform.up = direction;
+    }
+    public void EnemyShoot()
+    {
+        GameObject enemyBullet = Instantiate(bullet, barrel.position, barrel.rotation);
+
+        enemyBullet.GetComponent<Renderer>().material.color = Color.red;
+        Rigidbody2D rb = enemyBullet.GetComponent<Rigidbody2D>();
+        rb.AddForce(barrel.up * bulletForce, ForceMode2D.Impulse);
     }
 }
