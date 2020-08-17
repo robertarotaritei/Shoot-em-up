@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8865386568771118507}
   - component: {fileID: 8865386568771118504}
   - component: {fileID: 8865386568771118505}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Basic Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8865386568771118502}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -158,6 +158,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   canShoot: 0
-  fireRate: 0
+  fireRate: 1
   health: 1
-  distanceFromTarget: 1
+  distanceFromTarget: 0
+  bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
+  bulletForce: 10
