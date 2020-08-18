@@ -78,6 +78,6 @@ public class BasicEnemy : MonoBehaviour
 
         enemyBullet.GetComponent<Renderer>().material.color = Color.red;
         Rigidbody2D rb = enemyBullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(barrel.up * bulletForce, ForceMode2D.Impulse);
+        rb.AddForce(-barrel.up * bulletForce, ForceMode2D.Impulse);
     }
 }

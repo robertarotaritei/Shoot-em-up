@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 2
   enemies:
-  - {fileID: 0}
+  - {fileID: 8865386568771118502, guid: 827b311ae8409b44b9e777b5d03d40e1, type: 3}
 --- !u!1 &1371287768
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082727919836654974, guid: 5611445a8ebb2ce40afe3daa55177a2f,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 7.24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5611445a8ebb2ce40afe3daa55177a2f, type: 3}
