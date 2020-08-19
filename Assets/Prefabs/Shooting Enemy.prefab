@@ -193,4 +193,4 @@ MonoBehaviour:
   health: 2
   distanceFromTarget: 6
   bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
-  bulletForce: 10
+  bulletForce: 7
