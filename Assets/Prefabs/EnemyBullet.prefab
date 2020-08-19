@@ -138,7 +138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7958124300240099625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47c97f8d2a9bed419e5f952e9e095fc, type: 3}
+  m_Script: {fileID: 11500000, guid: ea9cecea5ec1716429a9a20f54307f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletDamage: 1

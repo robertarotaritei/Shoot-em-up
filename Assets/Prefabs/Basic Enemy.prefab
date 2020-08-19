@@ -153,13 +153,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 8865386568771118502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a586ba9c1d6ee224485e8a2ef5407d40, type: 3}
+  m_Script: {fileID: 11500000, guid: ba08226b23214af44a9e9fc9a0f1b980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
   canShoot: 0
-  fireRate: 1
+  fireRate: 0
   health: 1
   distanceFromTarget: 0
-  bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
-  bulletForce: 10
+  bullet: {fileID: 0}
+  bulletForce: 0

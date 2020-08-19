@@ -184,7 +184,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8063714894140352847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a586ba9c1d6ee224485e8a2ef5407d40, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a7335eb6f020e44fbc6a0acb52d270f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
@@ -193,4 +193,4 @@ MonoBehaviour:
   health: 2
   distanceFromTarget: 6
   bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
-  bulletForce: 7
+  bulletForce: 10

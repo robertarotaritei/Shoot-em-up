@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class BasicEnemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed;
@@ -13,7 +13,7 @@ public class BasicEnemy : MonoBehaviour
     public float distanceFromTarget;
     public GameObject bullet;
     public float bulletForce;
-    Transform target, barrel;
+    protected Transform target, barrel;
 
     private void Awake()
     {
@@ -40,7 +40,7 @@ public class BasicEnemy : MonoBehaviour
         facePlayer();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
@@ -49,7 +49,7 @@ public class BasicEnemy : MonoBehaviour
         }
     }
 
-    void Die()
+    protected void Die()
     {
         Destroy(gameObject);
     }
@@ -72,11 +72,10 @@ public class BasicEnemy : MonoBehaviour
 
         transform.up = direction;
     }
-    public void EnemyShoot()
+    public virtual void EnemyShoot()
     {
         GameObject enemyBullet = Instantiate(bullet, barrel.position, barrel.rotation);
 
-        enemyBullet.GetComponent<Renderer>().material.color = Color.red;
         Rigidbody2D rb = enemyBullet.GetComponent<Rigidbody2D>();
         rb.AddForce(-barrel.up * bulletForce, ForceMode2D.Impulse);
     }
