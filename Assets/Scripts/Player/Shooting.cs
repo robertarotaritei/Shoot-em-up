@@ -21,12 +21,15 @@ public class Shooting : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetButton("Fire1") && delay / 60 > fireRatePerSecond)
+        if (!PauseMenu.GameIsPaused)
         {
-            Shoot();
-        }
+            if (Input.GetButton("Fire1") && delay / 60 > fireRatePerSecond)
+            {
+                Shoot();
+            }
 
-        delay++;
+            delay++;
+        }
     }
     private void Shoot()
     {
