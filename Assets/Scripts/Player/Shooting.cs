@@ -23,7 +23,7 @@ public class Shooting : MonoBehaviour
     {
         if (!PauseMenu.GameIsPaused)
         {
-            if (Input.GetButton("Fire1") && delay / 60 > fireRatePerSecond)
+            if (Input.GetButton("Fire1") && delay > 60 / fireRatePerSecond)
             {
                 Shoot();
             }
