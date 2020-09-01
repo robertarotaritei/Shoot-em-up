@@ -187,10 +187,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a7335eb6f020e44fbc6a0acb52d270f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
   canShoot: 1
   fireRate: 1
-  health: 2
-  distanceFromTarget: 6
-  bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
   bulletForce: 10
+  speed: 2
+  distanceFromTarget: 6
+  health: 2
+  score: 15
+  bullet: {fileID: 7958124300240099625, guid: adfd0d6561d24d24788c185606beac48, type: 3}
+  explosion: {fileID: 7024586763783397530, guid: ec0ce6d6fdd43a24f833c29b7a50e334,
+    type: 3}
