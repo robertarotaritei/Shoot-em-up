@@ -6,13 +6,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     Rigidbody2D rb;
-    public float speed;
     public bool canShoot;
-    public float fireRate;
-    public int health;
-    public float distanceFromTarget;
-    public GameObject bullet;
-    public float bulletForce;
+    public float fireRate, bulletForce, speed, distanceFromTarget;
+    public int health, score;
+    public GameObject bullet, explosion;
     protected Transform target, barrel;
 
     private void Awake()
@@ -51,16 +48,24 @@ public class Enemy : MonoBehaviour
 
     protected void Die()
     {
+        Instantiate(explosion, transform.position, Quaternion.identity);
+        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
         Destroy(gameObject);
     }
     public void Damage(int damage)
     {
         health -= damage;
-
+        StartCoroutine(Blink());
         if(health <= 0)
         {
             Die();
         }
+    }
+    IEnumerator Blink()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
+        yield return new WaitForSeconds(0.2f);
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
     }
 
     private void facePlayer()

@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     public float speed;
     public int health;
+    public GameObject explosion;
 
     private void Awake()
     {
@@ -30,11 +31,19 @@ public class Player : MonoBehaviour
     public void Damage(int damage)
     {
         health -=damage;
-
+        StartCoroutine(Blink());
         if (health <= 0)
         {
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+    }
+
+    IEnumerator Blink()
+    {
+        GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
+        yield return new WaitForSeconds(0.2f);
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
     }
 
     private void faceMouse()
