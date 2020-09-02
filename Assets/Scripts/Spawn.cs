@@ -9,9 +9,8 @@ public class Spawn : MonoBehaviour
     int differentEnemies = 0;
     void Start()
     {
-        InvokeRepeating("SpawnEnemy", 2, spawnRate);
+        StartCoroutine(Spawner());
         StartCoroutine(MyCounter(enemies.Length));
-        spawnRate -= 0.2f;
     }
     void SpawnEnemy()
     {
@@ -34,6 +33,18 @@ public class Spawn : MonoBehaviour
         {
             differentEnemies++;
             yield return new WaitForSeconds(15);
+        }
+    }
+    IEnumerator Spawner()
+    {
+        while (true)
+        {
+            SpawnEnemy();
+            if (spawnRate > 0.8f)
+            {
+                spawnRate -= 0.05f;
+            }
+            yield return new WaitForSeconds(spawnRate);
         }
     }
 }

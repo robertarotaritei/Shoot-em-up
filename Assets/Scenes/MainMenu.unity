@@ -1321,6 +1321,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1371287769, guid: a932a702fd1d76644a05cac778b44a13, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1640180548, guid: a932a702fd1d76644a05cac778b44a13, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 560533310617122545, guid: a932a702fd1d76644a05cac778b44a13,
         type: 3}
       propertyPath: fireRatePerSecond
@@ -1366,6 +1374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: bulletForce
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4514345622687099680, guid: a932a702fd1d76644a05cac778b44a13,
+        type: 3}
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4514345622687099684, guid: a932a702fd1d76644a05cac778b44a13,
         type: 3}
