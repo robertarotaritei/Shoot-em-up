@@ -13,15 +13,20 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    void Start()
-    {
-        
-    }
 
+    private void FixedUpdate()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+
+        
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+        rb.AddForce(movement * speed);
+
+    }
     void Update()
     {
-        rb.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, 0));
-        rb.AddForce(new Vector2(0, Input.GetAxis("Vertical") * speed));
         if (!PauseMenu.GameIsPaused)
         {
             faceMouse();
