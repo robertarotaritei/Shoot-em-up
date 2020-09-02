@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
 
-        
+
         float moveVertical = Input.GetAxis("Vertical");
 
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
     public void Damage(int damage)
     {
-        health -=damage;
+        health -= damage;
         StartCoroutine(Blink());
         if (health <= 0)
         {

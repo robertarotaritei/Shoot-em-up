@@ -220,10 +220,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4514345622687099675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4beada36ccf1f240906079be36ea97c, type: 3}
+  m_Script: {fileID: 11500000, guid: 075f06ea269bade4393de649e12d7da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 15
   health: 3
   explosion: {fileID: 9057404462433834182, guid: 406e02bf7c36f8744917a006029da0b7,
     type: 3}
