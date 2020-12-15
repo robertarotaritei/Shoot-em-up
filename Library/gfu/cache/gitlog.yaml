@@ -1,0 +1,1890 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-09-06T23:21:08.363+02:00
+  initializedAtString: 2020-09-06T23:17:11.181+02:00
+  log:
+  - commitID: 7dabb8e895b1243c7beddb9548cf827798ee7db6
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Extra Life Sprite
+    description: 
+    timeString: 2020-09-06T23:20:56.000+02:00
+    commitTimeString: 2020-09-06T23:20:56.000+02:00
+    changes:
+    - path: Assets\Sprites\Life.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Life.png
+      projectPath: Assets\Sprites\Life.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Life.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Life.png.meta
+      projectPath: Assets\Sprites\Life.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: c822205a5a6e159e035694f018d3a8d1295279c1
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add GameOver Menu
+    description: 
+    timeString: 2020-09-06T23:20:40.000+02:00
+    commitTimeString: 2020-09-06T23:20:40.000+02:00
+    changes:
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b916a8e832ee57fbcd7e2fa118eb6d87edcc6ce1
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Player
+    description: 
+    timeString: 2020-09-02T12:09:39.000+02:00
+    commitTimeString: 2020-09-02T12:09:39.000+02:00
+    changes:
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs
+      projectPath: Assets\Scripts\Player\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs.meta
+      projectPath: Assets\Scripts\Player\Player.cs.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: bb7164dfff335a3dde6e1854424adecfb82f76ce
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Enemy Spawner
+    description: 
+    timeString: 2020-09-02T12:09:26.000+02:00
+    commitTimeString: 2020-09-02T12:09:26.000+02:00
+    changes:
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawn.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Spawn.cs
+      projectPath: Assets\Scripts\Spawn.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 67bb78d31af56b46ae387b8d66e90fbc84ffb4a9
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Main Menu Font
+    description: 
+    timeString: 2020-09-02T11:23:27.000+02:00
+    commitTimeString: 2020-09-02T11:23:27.000+02:00
+    changes:
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 3e50f99ae7c1334f259e2f5802bd91033f60180b
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Player Movement
+    description: 
+    timeString: 2020-09-02T11:20:25.000+02:00
+    commitTimeString: 2020-09-02T11:20:25.000+02:00
+    changes:
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs
+      projectPath: Assets\Scripts\Player\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c45623b283f44cf29b0d7e7267ec66c9934845f5
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Score
+    description: 
+    timeString: 2020-09-01T23:41:49.000+02:00
+    commitTimeString: 2020-09-01T23:41:49.000+02:00
+    changes:
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Score.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Score.cs
+      projectPath: Assets\Scripts\Score.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Score.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Score.cs.meta
+      projectPath: Assets\Scripts\Score.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6e2a778cef7e5aad1c5c01a849f7febf56712774
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Pixel Font
+    description: 
+    timeString: 2020-09-01T23:41:40.000+02:00
+    commitTimeString: 2020-09-01T23:41:40.000+02:00
+    changes:
+    - path: Assets\Thaleah_PixelFont.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont.meta
+      projectPath: Assets\Thaleah_PixelFont.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials.meta
+      projectPath: Assets\Thaleah_PixelFont\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+      projectPath: Assets\Thaleah_PixelFont\Materials\ThaleahFat_TTF.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+      projectPath: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+      projectPath: Assets\Thaleah_PixelFont\Materials\Thaleah_DemoBackground.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+      projectPath: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+      projectPath: Assets\Thaleah_PixelFont\ThaleahFat.fontsettings.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Thaleah_Demo.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Thaleah_Demo.unity
+      projectPath: Assets\Thaleah_PixelFont\Thaleah_Demo.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Thaleah_Demo.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Thaleah_Demo.unity.meta
+      projectPath: Assets\Thaleah_PixelFont\Thaleah_Demo.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+      projectPath: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+      projectPath: Assets\Thaleah_PixelFont\Thaleah_Readme.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 358623c5e40c3c390a12c0fd4634661919bcf21e
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Death Explosions
+    description: 
+    timeString: 2020-09-01T23:41:21.000+02:00
+    commitTimeString: 2020-09-01T23:41:21.000+02:00
+    changes:
+    - path: Assets\Scripts\DestroySelf.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\DestroySelf.cs
+      projectPath: Assets\Scripts\DestroySelf.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\DestroySelf.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\DestroySelf.cs.meta
+      projectPath: Assets\Scripts\DestroySelf.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: bcc816aae9ad05b7f128bb1163d3261c2212cdfc
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Death Explosions
+    description: 
+    timeString: 2020-09-01T23:41:01.000+02:00
+    commitTimeString: 2020-09-01T23:41:01.000+02:00
+    changes:
+    - path: Assets\Prefabs\Explosion.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Explosion.prefab
+      projectPath: Assets\Prefabs\Explosion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Explosion.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Explosion.prefab.meta
+      projectPath: Assets\Prefabs\Explosion.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player Explosion.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player Explosion.prefab
+      projectPath: Assets\Prefabs\Player Explosion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player Explosion.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player Explosion.prefab.meta
+      projectPath: Assets\Prefabs\Player Explosion.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\Enemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\Enemy.cs
+      projectPath: Assets\Scripts\Enemies\Enemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\YellowEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\YellowEnemy.cs
+      projectPath: Assets\Scripts\Enemies\YellowEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs
+      projectPath: Assets\Scripts\Player\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2302e128ce6d72ce6534de4a3be66720960a58d5
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Enemies
+    description: 
+    timeString: 2020-09-01T23:40:22.000+02:00
+    commitTimeString: 2020-09-01T23:40:22.000+02:00
+    changes:
+    - path: Assets\Prefabs\Basic Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Basic Enemy.prefab
+      projectPath: Assets\Prefabs\Basic Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shooting Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Shooting Enemy.prefab
+      projectPath: Assets\Prefabs\Shooting Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7303f762067d87ccd42f62100990689b155111d7
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Tank Enemy
+    description: 
+    timeString: 2020-09-01T23:40:04.000+02:00
+    commitTimeString: 2020-09-01T23:40:04.000+02:00
+    changes:
+    - path: Assets\Prefabs\Tank Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Tank Enemy.prefab
+      projectPath: Assets\Prefabs\Tank Enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Tank Enemy.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Tank Enemy.prefab.meta
+      projectPath: Assets\Prefabs\Tank Enemy.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Tank Enemy.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Tank Enemy.png
+      projectPath: Assets\Sprites\Tank Enemy.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Tank Enemy.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Tank Enemy.png.meta
+      projectPath: Assets\Sprites\Tank Enemy.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 844a674dd17cb8212eb1426320d4b84c87eb9aed
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Scene Build Settings
+    description: 
+    timeString: 2020-08-23T00:34:28.000+02:00
+    commitTimeString: 2020-08-23T00:34:28.000+02:00
+    changes:
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8f427435221448b22392219f5e9ad0c036cf0daa
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Menu Connections
+    description: 
+    timeString: 2020-08-23T00:34:02.000+02:00
+    commitTimeString: 2020-08-23T00:34:02.000+02:00
+    changes:
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: Assets\Scenes\Menu.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\MainMenu.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\MainMenu.unity.meta
+      projectPath: Assets\Scenes\MainMenu.unity.meta
+      originalPath: Assets\Scenes\Menu.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus\MainMenu.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus\MainMenu.cs
+      projectPath: Assets\Scripts\Menus\MainMenu.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus\MainMenu.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus\MainMenu.cs.meta
+      projectPath: Assets\Scripts\Menus\MainMenu.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus\PauseMenu.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus\PauseMenu.cs
+      projectPath: Assets\Scripts\Menus\PauseMenu.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b027be40a0d29c4a19e089dbda7ebdfbbd861c33
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Main Menu Scene
+    description: 
+    timeString: 2020-08-20T21:57:28.000+02:00
+    commitTimeString: 2020-08-20T21:57:28.000+02:00
+    changes:
+    - path: Assets\Scenes\Menu.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Menu.unity
+      projectPath: Assets\Scenes\Menu.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\Menu.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Menu.unity.meta
+      projectPath: Assets\Scenes\Menu.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: c2b3ab66e7bd709555b72de47f464d5e92120ff2
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Player Shooting
+    description: 
+    timeString: 2020-08-20T21:56:57.000+02:00
+    commitTimeString: 2020-08-20T21:56:57.000+02:00
+    changes:
+    - path: Assets\Scripts\Player\Shooting.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Shooting.cs
+      projectPath: Assets\Scripts\Player\Shooting.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 0de350eb3a2ddf40b7b017e58f9a8470f3751e93
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Rework Enemy Spawner
+    description: 
+    timeString: 2020-08-20T21:32:01.000+02:00
+    commitTimeString: 2020-08-20T21:32:01.000+02:00
+    changes:
+    - path: Assets\Prefabs\EnemySpawner.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemySpawner.prefab
+      projectPath: Assets\Prefabs\EnemySpawner.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\EnemySpawner.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemySpawner.prefab.meta
+      projectPath: Assets\Prefabs\EnemySpawner.prefab.meta
+      originalPath: Assets\Space.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity.meta
+      projectPath: Assets\Scenes\Game.unity.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 797d3cf9423131557f86648bceec6e0711999a24
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Pause Menu
+    description: 
+    timeString: 2020-08-20T21:24:27.000+02:00
+    commitTimeString: 2020-08-20T21:24:27.000+02:00
+    changes:
+    - path: Assets\Scenes\Game.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity
+      projectPath: Assets\Scenes\Game.unity
+      originalPath: Assets\Scenes\SampleScene.unity
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scenes\Game.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\Game.unity.meta
+      projectPath: Assets\Scenes\Game.unity.meta
+      originalPath: Assets\Scenes\SampleScene.unity.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullets.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Bullets.meta
+      projectPath: Assets\Scripts\Bullets.meta
+      originalPath: Assets\Bullets.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullets\Bullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Bullets\Bullet.cs
+      projectPath: Assets\Scripts\Bullets\Bullet.cs
+      originalPath: Assets\Bullets\Bullet.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullets\Bullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Bullets\Bullet.cs.meta
+      projectPath: Assets\Scripts\Bullets\Bullet.cs.meta
+      originalPath: Assets\Bullets\Bullet.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullets\EnemyBullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Bullets\EnemyBullet.cs
+      projectPath: Assets\Scripts\Bullets\EnemyBullet.cs
+      originalPath: Assets\Bullets\EnemyBullet.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullets\EnemyBullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Bullets\EnemyBullet.cs.meta
+      projectPath: Assets\Scripts\Bullets\EnemyBullet.cs.meta
+      originalPath: Assets\Bullets\EnemyBullet.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies.meta
+      projectPath: Assets\Scripts\Enemies.meta
+      originalPath: Assets\Enemies.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\Enemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\Enemy.cs
+      projectPath: Assets\Scripts\Enemies\Enemy.cs
+      originalPath: Assets\Enemies\Enemy.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\Enemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\Enemy.cs.meta
+      projectPath: Assets\Scripts\Enemies\Enemy.cs.meta
+      originalPath: Assets\Enemies\Enemy.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\RedEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\RedEnemy.cs
+      projectPath: Assets\Scripts\Enemies\RedEnemy.cs
+      originalPath: Assets\Enemies\RedEnemy.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\RedEnemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\RedEnemy.cs.meta
+      projectPath: Assets\Scripts\Enemies\RedEnemy.cs.meta
+      originalPath: Assets\Enemies\RedEnemy.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\YellowEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\YellowEnemy.cs
+      projectPath: Assets\Scripts\Enemies\YellowEnemy.cs
+      originalPath: Assets\Enemies\YellowEnemy.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemies\YellowEnemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Enemies\YellowEnemy.cs.meta
+      projectPath: Assets\Scripts\Enemies\YellowEnemy.cs.meta
+      originalPath: Assets\Enemies\YellowEnemy.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus.meta
+      projectPath: Assets\Scripts\Menus.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus\PauseMenu.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus\PauseMenu.cs
+      projectPath: Assets\Scripts\Menus\PauseMenu.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Menus\PauseMenu.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Menus\PauseMenu.cs.meta
+      projectPath: Assets\Scripts\Menus\PauseMenu.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player.meta
+      projectPath: Assets\Scripts\Player.meta
+      originalPath: Assets\Player.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs
+      projectPath: Assets\Scripts\Player\Player.cs
+      originalPath: Assets\Player\Player.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Player.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Player.cs.meta
+      projectPath: Assets\Scripts\Player\Player.cs.meta
+      originalPath: Assets\Player\Player.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Shooting.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Shooting.cs
+      projectPath: Assets\Scripts\Player\Shooting.cs
+      originalPath: Assets\Player\Shooting.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player\Shooting.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Player\Shooting.cs.meta
+      projectPath: Assets\Scripts\Player\Shooting.cs.meta
+      originalPath: Assets\Player\Shooting.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawn.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Spawn.cs
+      projectPath: Assets\Scripts\Spawn.cs
+      originalPath: Assets\Spawn.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawn.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scripts\Spawn.cs.meta
+      projectPath: Assets\Scripts\Spawn.cs.meta
+      originalPath: Assets\Spawn.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 55b7cfca417602bf82b7fec8f9aa8a5268d8f6ec
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update C# Scripts
+    description: 
+    timeString: 2020-08-19T12:15:51.000+02:00
+    commitTimeString: 2020-08-19T12:15:51.000+02:00
+    changes:
+    - path: Assets\Bullets.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullets.meta
+      projectPath: Assets\Bullets.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Bullets\Bullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullets\Bullet.cs
+      projectPath: Assets\Bullets\Bullet.cs
+      originalPath: Assets\Bullet.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Bullets\Bullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullets\Bullet.cs.meta
+      projectPath: Assets\Bullets\Bullet.cs.meta
+      originalPath: Assets\Bullet.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Bullets\EnemyBullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullets\EnemyBullet.cs
+      projectPath: Assets\Bullets\EnemyBullet.cs
+      originalPath: Assets\EnemyBullet.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Bullets\EnemyBullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullets\EnemyBullet.cs.meta
+      projectPath: Assets\Bullets\EnemyBullet.cs.meta
+      originalPath: Assets\EnemyBullet.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Enemies.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies.meta
+      projectPath: Assets\Enemies.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemies\Enemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\Enemy.cs
+      projectPath: Assets\Enemies\Enemy.cs
+      originalPath: Assets\BasicEnemy.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Enemies\Enemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\Enemy.cs.meta
+      projectPath: Assets\Enemies\Enemy.cs.meta
+      originalPath: Assets\BasicEnemy.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Enemies\RedEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\RedEnemy.cs
+      projectPath: Assets\Enemies\RedEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemies\RedEnemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\RedEnemy.cs.meta
+      projectPath: Assets\Enemies\RedEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemies\YellowEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\YellowEnemy.cs
+      projectPath: Assets\Enemies\YellowEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Enemies\YellowEnemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Enemies\YellowEnemy.cs.meta
+      projectPath: Assets\Enemies\YellowEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.meta
+      projectPath: Assets\Player.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player\Player.cs
+      projectPath: Assets\Player\Player.cs
+      originalPath: Assets\Player.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Player\Player.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player\Player.cs.meta
+      projectPath: Assets\Player\Player.cs.meta
+      originalPath: Assets\Player.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Player\Shooting.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player\Shooting.cs
+      projectPath: Assets\Player\Shooting.cs
+      originalPath: Assets\Shooting.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Player\Shooting.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player\Shooting.cs.meta
+      projectPath: Assets\Player\Shooting.cs.meta
+      originalPath: Assets\Shooting.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Basic Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Basic Enemy.prefab
+      projectPath: Assets\Prefabs\Basic Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\EnemyBullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemyBullet.prefab
+      projectPath: Assets\Prefabs\EnemyBullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shooting Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Shooting Enemy.prefab
+      projectPath: Assets\Prefabs\Shooting Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 38f6ea5ec6cf99bdf04c49d2cd40b5b31225ff0f
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Enemy Spawner
+    description: 
+    timeString: 2020-08-19T11:56:26.000+02:00
+    commitTimeString: 2020-08-19T11:56:26.000+02:00
+    changes:
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\EnemyBullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemyBullet.prefab
+      projectPath: Assets\Prefabs\EnemyBullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shooting Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Shooting Enemy.prefab
+      projectPath: Assets\Prefabs\Shooting Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Spawn.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Spawn.cs
+      projectPath: Assets\Spawn.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: f4675e201373670de7989c6dd49eebc9334b849e
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Shooting Enemy
+    description: 
+    timeString: 2020-08-19T00:36:54.000+02:00
+    commitTimeString: 2020-08-19T00:36:54.000+02:00
+    changes:
+    - path: Assets\BasicEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\BasicEnemy.cs
+      projectPath: Assets\BasicEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\EnemyBullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\EnemyBullet.cs
+      projectPath: Assets\EnemyBullet.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shooting Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Shooting Enemy.prefab
+      projectPath: Assets\Prefabs\Shooting Enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shooting Enemy.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Shooting Enemy.prefab.meta
+      projectPath: Assets\Prefabs\Shooting Enemy.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Shooting Enemy.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Shooting Enemy.png
+      projectPath: Assets\Sprites\Shooting Enemy.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Shooting Enemy.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Shooting Enemy.png.meta
+      projectPath: Assets\Sprites\Shooting Enemy.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: df07b771c2381961a45960a7909d5e0473dc2415
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Update Background
+    description: 
+    timeString: 2020-08-19T00:34:21.000+02:00
+    commitTimeString: 2020-08-19T00:34:21.000+02:00
+    changes:
+    - path: Assets\Prefabs\Background.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Background.prefab
+      projectPath: Assets\Prefabs\Background.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: b4e32f5241f3d9ae56b33390f8cdfc7d8fe65d16
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Enemy Spawner
+    description: 
+    timeString: 2020-08-17T21:07:04.000+02:00
+    commitTimeString: 2020-08-17T21:07:04.000+02:00
+    changes:
+    - path: Assets\Bullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullet.cs
+      projectPath: Assets\Bullet.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Basic Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Basic Enemy.prefab
+      projectPath: Assets\Prefabs\Basic Enemy.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Spawn.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Spawn.cs
+      projectPath: Assets\Spawn.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Spawn.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Spawn.cs.meta
+      projectPath: Assets\Spawn.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: f73eb9142395cfe6a39b10405d07a541f64bc624
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Player and Enemy Shooting
+    description: 
+    timeString: 2020-08-16T15:06:34.000+02:00
+    commitTimeString: 2020-08-16T15:06:34.000+02:00
+    changes:
+    - path: Assets\BasicEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\BasicEnemy.cs
+      projectPath: Assets\BasicEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Bullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullet.cs
+      projectPath: Assets\Bullet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Bullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Bullet.cs.meta
+      projectPath: Assets\Bullet.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\EnemyBullet.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\EnemyBullet.cs
+      projectPath: Assets\EnemyBullet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\EnemyBullet.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\EnemyBullet.cs.meta
+      projectPath: Assets\EnemyBullet.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.cs
+      projectPath: Assets\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\EnemyBullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemyBullet.prefab
+      projectPath: Assets\Prefabs\EnemyBullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\EnemyBullet.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\EnemyBullet.prefab.meta
+      projectPath: Assets\Prefabs\EnemyBullet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Shooting.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Shooting.cs
+      projectPath: Assets\Shooting.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a327519d306a993e25a8787505dac20ffc92314c
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Player Shooting
+    description: 
+    timeString: 2020-08-15T18:21:44.000+02:00
+    commitTimeString: 2020-08-15T18:21:44.000+02:00
+    changes:
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Shooting.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Shooting.cs
+      projectPath: Assets\Shooting.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Shooting.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Shooting.cs.meta
+      projectPath: Assets\Shooting.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 91c6fb67c8ef9456df2f38f94a424c5153a6b475
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Facing Objects to Characters
+    description: 
+    timeString: 2020-08-15T18:21:32.000+02:00
+    commitTimeString: 2020-08-15T18:21:32.000+02:00
+    changes:
+    - path: Assets\BasicEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\BasicEnemy.cs
+      projectPath: Assets\BasicEnemy.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.cs
+      projectPath: Assets\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 63a7d2e98ac9bd62a6b08e64c2f84b8501e4c46e
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Basic Enemy
+    description: 
+    timeString: 2020-08-14T18:07:48.000+02:00
+    commitTimeString: 2020-08-14T18:07:48.000+02:00
+    changes:
+    - path: Assets\BasicEnemy.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\BasicEnemy.cs
+      projectPath: Assets\BasicEnemy.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicEnemy.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\BasicEnemy.cs.meta
+      projectPath: Assets\BasicEnemy.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.cs
+      projectPath: Assets\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Background.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Background.prefab
+      projectPath: Assets\Prefabs\Background.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Background.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Background.prefab.meta
+      projectPath: Assets\Prefabs\Background.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Basic Enemy.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Basic Enemy.prefab
+      projectPath: Assets\Prefabs\Basic Enemy.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Basic Enemy.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Basic Enemy.prefab.meta
+      projectPath: Assets\Prefabs\Basic Enemy.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bounds.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bounds.prefab
+      projectPath: Assets\Prefabs\Bounds.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bounds.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bounds.prefab.meta
+      projectPath: Assets\Prefabs\Bounds.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Bullet.prefab.meta
+      projectPath: Assets\Prefabs\Bullet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Main Camera.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Main Camera.prefab
+      projectPath: Assets\Prefabs\Main Camera.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Main Camera.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Main Camera.prefab.meta
+      projectPath: Assets\Prefabs\Main Camera.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player.prefab
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Player.prefab.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Prefabs\Player.prefab.meta
+      projectPath: Assets\Prefabs\Player.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Basic Enemy.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Basic Enemy.png
+      projectPath: Assets\Sprites\Basic Enemy.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Basic Enemy.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Basic Enemy.png.meta
+      projectPath: Assets\Sprites\Basic Enemy.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Bullet.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Bullet.png
+      projectPath: Assets\Sprites\Bullet.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Bullet.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Bullet.png.meta
+      projectPath: Assets\Sprites\Bullet.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 722c7f4cd71a428840b61969d67d474db4e744cf
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Player Movement and Boundaries
+    description: 
+    timeString: 2020-08-13T15:25:38.000+02:00
+    commitTimeString: 2020-08-13T15:25:38.000+02:00
+    changes:
+    - path: Assets\Player.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.cs
+      projectPath: Assets\Player.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Player.cs.meta
+      projectPath: Assets\Player.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Space.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity
+      projectPath: Assets\Space.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Space.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Space.unity.meta
+      projectPath: Assets\Space.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: e79cafdc303fef1b473006ac80f0c21eb591b922
+    mergeA: 
+    mergeB: 
+    authorName: Robert Arotaritei
+    authorEmail: 35419169+robertarotaritei@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update README.md
+    description: 
+    timeString: 2020-08-12T14:32:07.000+02:00
+    commitTimeString: 2020-08-12T14:32:07.000+02:00
+    changes:
+    - path: README.md
+      fullPath: D:\Github games\Shoot-em-up\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 1808d7865746dd6ee4a8af98f5e7ef26014fb870
+    mergeA: 
+    mergeB: 
+    authorName: "Arot\u0103ri\u021Bei Robert, R"
+    authorEmail: r.arotaritei@student.fontys.nl
+    commitEmail: r.arotaritei@student.fontys.nl
+    commitName: "Arot\u0103ri\u021Bei Robert, R"
+    summary: Add Player Sprite
+    description: 
+    timeString: 2020-08-12T14:31:13.000+02:00
+    commitTimeString: 2020-08-12T14:31:13.000+02:00
+    changes:
+    - path: Assets\Plugins.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites.meta
+      projectPath: Assets\Sprites.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Player.png
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Player.png
+      projectPath: Assets\Sprites\Player.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Player.png.meta
+      fullPath: D:\Github games\Shoot-em-up\Assets\Sprites\Player.png.meta
+      projectPath: Assets\Sprites\Player.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: D:\Github games\Shoot-em-up\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: D:\Github games\Shoot-em-up\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: a8335cab89e1fe21d96ee37aef8bfe8b600cb515
+    mergeA: 
+    mergeB: 
+    authorName: Robert Arotaritei
+    authorEmail: 35419169+robertarotaritei@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2020-08-12T14:26:05.000+02:00
+    commitTimeString: 2020-08-12T14:26:05.000+02:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\Github games\Shoot-em-up\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: D:\Github games\Shoot-em-up\README.md
+      projectPath: README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
