@@ -1,13 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public string name;
+    public static float score = 0;
+
+    public Text scoreText;
+
+    public Text highScoreText;
+
+    public Text finalScoreText;
+
+    void Start()
+    {
+        scoreText.text = score.ToString();
+    }
+
     void Update()
     {
-        GetComponent<Text>().text = PlayerPrefs.GetInt("Score") + "";
+        scoreText.text = score.ToString();
+    }
+
+    public void SetText()
+    {
+        finalScoreText.text = score.ToString();
+        highScoreText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
+
+        if (score > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", (int)score);
+        }
     }
 }

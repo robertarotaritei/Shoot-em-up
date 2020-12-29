@@ -1,6 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -10,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float fireRate, bulletForce, speed, distanceFromTarget;
     public int health, score;
     public GameObject bullet, explosion;
+    public GameObject fuel, fuel2;
     protected Transform target, barrel;
 
     private void Awake()
@@ -17,12 +16,13 @@ public class Enemy : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         barrel = transform.Find("barrel");
     }
+
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         if (canShoot)
         {
-            InvokeRepeating("EnemyShoot", 1f, fireRate);
+            InvokeRepeating(nameof(EnemyShoot), 1f, fireRate);
         }
     }
 
@@ -31,15 +31,22 @@ public class Enemy : MonoBehaviour
         if(Vector2.Distance(transform.position, target.position) > distanceFromTarget)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            fuel.SetActive(true);
+            fuel2.SetActive(true);
+        }
+        else
+        {
+            fuel.SetActive(false);
+            fuel2.SetActive(false);
         }
         rb.velocity = new Vector2();
 
-        facePlayer();
+        FacePlayer();
     }
 
     public virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Player>().Damage(1);
             Die();
@@ -49,9 +56,10 @@ public class Enemy : MonoBehaviour
     protected void Die()
     {
         Instantiate(explosion, transform.position, Quaternion.identity);
-        PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
+        Score.score += score;
         Destroy(gameObject);
     }
+
     public void Damage(int damage)
     {
         health -= damage;
@@ -61,6 +69,7 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
+
     IEnumerator Blink()
     {
         GetComponent<SpriteRenderer>().color = new Color(1, 0, 0);
@@ -68,7 +77,7 @@ public class Enemy : MonoBehaviour
         GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
     }
 
-    private void facePlayer()
+    private void FacePlayer()
     {
         Vector2 direction = new Vector2(
         target.position.x - transform.position.x,
@@ -77,6 +86,7 @@ public class Enemy : MonoBehaviour
 
         transform.up = direction;
     }
+
     public virtual void EnemyShoot()
     {
         GameObject enemyBullet = Instantiate(bullet, barrel.position, barrel.rotation);

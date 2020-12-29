@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
@@ -15,10 +13,7 @@ public class Shooting : MonoBehaviour
         leftBarrel = transform.Find("LeftBarrel");
         rightBarrel = transform.Find("RightBarrel");
     }
-    void Start()
-    {
-        
-    }
+
     void Update()
     {
         if (!PauseMenu.GameIsPaused)
@@ -31,6 +26,7 @@ public class Shooting : MonoBehaviour
             delay++;
         }
     }
+
     private void Shoot()
     {
         delay = 0;
@@ -42,6 +38,7 @@ public class Shooting : MonoBehaviour
         rb = rightBullet.GetComponent<Rigidbody2D>();
         rb.AddForce(rightBarrel.up * bulletForce, ForceMode2D.Impulse);
     }
+
     public void EnemyShoot(Transform barrel, float bulletForce)
     {
         GameObject enemyBullet = Instantiate(bullet, barrel.position, barrel.rotation);

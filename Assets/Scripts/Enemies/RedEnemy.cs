@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets
 {
@@ -9,7 +6,7 @@ namespace Assets
     {
         public override void OnCollisionEnter2D(Collision2D collision)
         {
-            if (collision.gameObject.tag == "Player")
+            if (collision.gameObject.CompareTag("Player"))
             {
                 collision.gameObject.GetComponent<Player>().Damage(1);
                 Die();
