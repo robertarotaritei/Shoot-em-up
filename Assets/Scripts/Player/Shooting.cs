@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     public float fireRatePerSecond;
     Transform leftBarrel, rightBarrel;
     public float bulletForce;
+    public static bool speedUp = false;
 
     public void Awake()
     {
@@ -25,6 +26,12 @@ public class Shooting : MonoBehaviour
 
             delay++;
         }
+
+        if (speedUp)
+        {
+            fireRatePerSecond *= 1.1f;
+            speedUp = false;
+        }
     }
 
     private void Shoot()
@@ -37,6 +44,8 @@ public class Shooting : MonoBehaviour
         rb.AddForce(leftBarrel.up * bulletForce, ForceMode2D.Impulse);
         rb = rightBullet.GetComponent<Rigidbody2D>();
         rb.AddForce(rightBarrel.up * bulletForce, ForceMode2D.Impulse);
+
+        FindObjectOfType<AudioManager>().Play(Audio.PlayerShoot);
     }
 
     public void EnemyShoot(Transform barrel, float bulletForce)

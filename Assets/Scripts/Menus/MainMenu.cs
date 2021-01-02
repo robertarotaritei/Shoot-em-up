@@ -3,7 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject mainMenuUI;
+    public Texture2D cursor;
+
+    void Start()
+    {
+        Cursor.SetCursor(cursor, new Vector2(4, 4), CursorMode.Auto);
+    }
 
     public void Play()
     {

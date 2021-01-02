@@ -13,7 +13,10 @@ public class EnemyBullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Player>().Damage(bulletDamage);
+            if (Player.invincible == false)
+            {
+                collision.gameObject.GetComponent<Player>().Damage(bulletDamage);
+            }
             Destroy(gameObject);
         }
     }

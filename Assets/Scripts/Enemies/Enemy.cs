@@ -48,7 +48,10 @@ public class Enemy : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<Player>().Damage(1);
+            if (Player.invincible == false)
+            {
+                collision.gameObject.GetComponent<Player>().Damage(1);
+            }
             Die();
         }
     }
@@ -57,6 +60,7 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(explosion, transform.position, Quaternion.identity);
         Score.score += score;
+        FindObjectOfType<AudioManager>().Play(Audio.EnemyDeath);
         Destroy(gameObject);
     }
 
