@@ -6,9 +6,7 @@ Shoot-em-up is a 2D game made in Unity. The player controls a spaceship that fli
 
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Assets/Sprites/ScreenshotMenu.png" alt="Screenshot" width="100%" height="100%">
-  </a>
+  <img src="Assets/Sprites/ScreenshotMenu.png" alt="Screenshot" width="100%" height="100%">
 </p>
 
 ## Features
