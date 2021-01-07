@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
@@ -23,15 +22,12 @@ public class GameOverMenu : MonoBehaviour
         gameOverMenuUI.SetActive(false);
         score.SetActive(true);
         Score.score = 0;
-        Time.timeScale = 1f;
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = PlayerPrefs.GetFloat("Difficulty", 0.85f);
     }
 
     public void LoadMenu()
     {
         gameIsOver = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

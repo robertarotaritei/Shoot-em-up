@@ -28,7 +28,8 @@ public class PowerUpSpawner : MonoBehaviour
         while (!GameOverMenu.gameIsOver)
         {
             int chance = Random.Range(0, 10);
-            if(chance < 4)
+            Debug.Log(chance);
+            if (chance < 8)
             {
                 SpawnPowerUp();
             }

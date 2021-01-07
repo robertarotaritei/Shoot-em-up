@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -10,9 +9,23 @@ public class MainMenu : MonoBehaviour
         Cursor.SetCursor(cursor, new Vector2(4, 4), CursorMode.Auto);
     }
 
-    public void Play()
+    public void Play(string difficulty)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        var diff = 0.75f;
+        switch (difficulty)
+        {
+            case "easy":
+                diff = 0.75f;
+                break;
+            case "medium":
+                diff = 0.85f;
+                break;
+            case "hard":
+                diff = 1f;
+                break;
+        }
+
+        PlayerPrefs.SetFloat("Difficulty", diff);
     }
 
     public void Quit()

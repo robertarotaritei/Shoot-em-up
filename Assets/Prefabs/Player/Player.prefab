@@ -223,12 +223,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 075f06ea269bade4393de649e12d7da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  spriteRenderer: {fileID: 4514345622687099684}
+  speed: 3
   startingLives: 3
   explosion: {fileID: 9057404462433834182, guid: 406e02bf7c36f8744917a006029da0b7,
     type: 3}
   fuel: {fileID: 346062741490981376}
   fuel2: {fileID: 3401328083996704521}
+  defaultSkin: {fileID: 21300000, guid: 38185f98993026d4f9d91f350ba0c765, type: 3}
+  whiteSkin: {fileID: 21300000, guid: 5bf85cd47b7725d438b31c18665a2cec, type: 3}
+  overlordSkin: {fileID: 0}
 --- !u!114 &560533310617122545
 MonoBehaviour:
   m_ObjectHideFlags: 0

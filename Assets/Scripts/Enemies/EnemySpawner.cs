@@ -15,7 +15,7 @@ public class EnemySpawner : MonoBehaviour
         StartCoroutine(MyCounter(enemies.Length));
     }
 
-    void SpawnEnemy()
+    private void SpawnEnemy()
     {
 
         int sideOfSpawning = Random.Range(-1, 2);

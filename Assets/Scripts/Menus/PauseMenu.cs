@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -8,7 +7,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !GameOverMenu.gameIsOver)
+        if (Input.GetKeyDown(KeyCode.P) && !GameOverMenu.gameIsOver)
         {
             if (GameIsPaused)
             {
@@ -24,7 +23,7 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = PlayerPrefs.GetFloat("Difficulty", 0.85f);
         GameIsPaused = !GameIsPaused;
     }
 
@@ -38,10 +37,9 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = PlayerPrefs.GetFloat("Difficulty", 0.85f);
         GameIsPaused = !GameIsPaused;
         Score.score = 0;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void Quit()

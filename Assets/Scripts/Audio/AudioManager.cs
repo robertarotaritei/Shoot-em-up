@@ -1,11 +1,9 @@
 ﻿using UnityEngine;
-using UnityEngine.Audio;
 using System;
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
-
     public static AudioManager instance;
 
     void Awake()
@@ -20,15 +18,16 @@ public class AudioManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
 
-        var value = PlayerPrefs.GetFloat("Volume", 1f);
-
         foreach (var s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
-            s.source.volume = value;
+            s.source.spatialBlend = 0f;
+            s.source.volume = 0.75f;
             s.source.loop = s.loop;
         }
+
+        AudioListener.volume = PlayerPrefs.GetInt("Sound", 1);
     }
 
     void Start()
@@ -60,15 +59,5 @@ public class AudioManager : MonoBehaviour
         }
 
         s.source.Stop();
-    }
-
-    public void SetVolume(float value)
-    {
-        PlayerPrefs.SetFloat("Volume", value);
-
-        foreach (var s in sounds)
-        {
-            s.source.volume = value;
-        }
     }
 }

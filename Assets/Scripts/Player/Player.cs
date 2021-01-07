@@ -4,21 +4,37 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
+    public SpriteRenderer spriteRenderer;
     public float speed;
     public int startingLives;
     public static int health;
     public GameObject explosion;
     public GameObject fuel, fuel2;
+    public Sprite defaultSkin, whiteSkin, overlordSkin;
     private Vector2 lastPosition;
     private bool fuelState, fuelPastState = false;
     public static bool invincible = false;
 
     private void Awake()
     {
+        Time.timeScale = PlayerPrefs.GetFloat("Difficulty", 0.85f);
         rb = GetComponent<Rigidbody2D>();
         health = startingLives;
         lastPosition = rb.position;
         SetFuel(false);
+
+        switch(PlayerPrefs.GetString("Skin", "default"))
+        {
+            case "default":
+                spriteRenderer.sprite = defaultSkin;
+                break;
+            case "white":
+                spriteRenderer.sprite = whiteSkin;
+                break;
+            case "overlord":
+                spriteRenderer.sprite = overlordSkin;
+                break;
+        }
     }
 
     private void FixedUpdate()

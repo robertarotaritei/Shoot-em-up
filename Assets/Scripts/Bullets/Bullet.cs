@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour
 
     private void Awake()
     {
+        var bulletsShot = PlayerPrefs.GetInt("Bullets", 0);
+        PlayerPrefs.SetInt("Bullets", bulletsShot + 1);
         Destroy(gameObject, 2.5f);
     }
 

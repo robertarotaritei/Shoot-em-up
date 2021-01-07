@@ -7,6 +7,8 @@ public class Score : MonoBehaviour
 
     public Text scoreText;
 
+    public Text bestText;
+
     public Text highScoreText;
 
     public Text finalScoreText;
@@ -14,6 +16,7 @@ public class Score : MonoBehaviour
     void Start()
     {
         scoreText.text = score.ToString();
+        bestText.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
 
     void Update()
