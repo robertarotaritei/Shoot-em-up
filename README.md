@@ -36,4 +36,4 @@ The game has:
 
 ## Usage
 
-The game can be played at [https://robertarotaritei.itch.io](https://robertarotaritei.itch.io).
+The game can be played at [https://robertarotaritei.itch.io/shoot-em-up](https://robertarotaritei.itch.io/shoot-em-up).
